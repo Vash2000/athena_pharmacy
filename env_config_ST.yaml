@@ -1,0 +1,29 @@
+envCfg:
+  releaseName: "vocus-om-cfg"
+  releaseVersion: ""
+  envVals: |-
+    env_cfg10.name=PORTFOLIO_INVENTORY
+    env_cfg10.entry.value=\
+       {\
+    	"canDelete"\:true,\
+    	"canEdit"\:true,\
+    	"canView"\:true,\
+    	"category"\:"fulfillmentSystem",\
+    	"entries"\:{\
+     		"addPortfolio"\:"https://run.mocky.io/v3/fea7395a-d087-41f4-91e7-d3694c0da135",\
+    		"clientId"\:"inventoryclient",\
+    		"clientSecret"\:"sigma",\
+    		"complexQueryPortfolio"\:"https://inventory-vocdev.vocus.sigma-systems.com/inventory/api/portfolioitem/query",\
+    		"createOrDeleteSnapshoturl"\:"https://inventory-history-vocdev.vocus.sigma-systems.com/inventory/api/history/portfolio/snapshot",\
+    		"oidcStubMode"\:"false",\
+     		"password"\:"inv@1234",\
+    		"queryPortfolio"\:"https://inventory-vocdev.vocus.sigma-systems.com/inventory/api/portfolioitem",\
+    		"scope"\:"openid profile memberOf",\
+     		"stubMode"\:"none",\
+    		"tokenUrl"\:"https://aws-vocqa-om1.vocus.sigma-systems.com:8443/openam/oauth2/access_token",\
+    		"userName"\:"inventoryuser"\
+    		}\
+        }
+    env_cfg10.entry.desc=PORTFOLIO_INVENTORY.
+    env_cfg10.entry.value_class=
+    env_cfg10.entry.renderer_class=
